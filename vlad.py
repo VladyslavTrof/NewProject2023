@@ -1,1 +1,5 @@
-print('122323')
+name = 'Alex'
+surname = 'Clinton'
+
+full_name = name + surname
+print(full_name)
