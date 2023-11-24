@@ -3,3 +3,5 @@ surname = 'Clinton'
 
 full_name = name + surname
 print(full_name)
+
+print('vlad hello from somewehre')
