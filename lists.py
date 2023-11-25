@@ -15,7 +15,7 @@ list_of_products = [
 first_product = list_of_products [0]
 second_products = list_of_products [1]
 
-print(first_product
+print(first_product)
 
 for product in list_of_products
 
