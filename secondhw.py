@@ -15,3 +15,7 @@ money = pahen * 12 * 3000 / exchange_rate
 
 print('Money')
 
+
+
+
+
