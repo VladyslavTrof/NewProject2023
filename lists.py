@@ -9,7 +9,7 @@ new_list = []
 list_of_products = [
 'cheese'
 'broccoli'
-'bread'
+'bread
 ]
 
 first_product = list_of_products [0]
