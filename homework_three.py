@@ -23,6 +23,6 @@ print(f'Я \U00002764 (city}')
 
 
 
-hsfvusdjhfvjdshvjsnvjsndfjvns
+
 
 
