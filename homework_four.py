@@ -18,4 +18,3 @@ students = {
     'Середній бал': 80
   },
 }
-print("vladik")
