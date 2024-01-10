@@ -1,7 +1,4 @@
-name = 'Alex'
-surname = 'Clinton'
+print("vlad")
 
-full_name = name + surname
-print(full_name)
 
-print('vlad hello from somewehre')
+input()
