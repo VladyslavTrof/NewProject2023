@@ -1,8 +1,1 @@
-name = 'Alex'
-surname = 'Clinton'
-
-full_name = name + surname
-print(full_name)
-
-print('vlad hello from somewehre')
-here is a test to check out
+print("Hello " + input("Whats is you name?"))
