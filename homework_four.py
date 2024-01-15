@@ -18,3 +18,4 @@ students = {
     'Середній бал': 80
   },
 }
+xc zxc zxc zx zx zxc zx zx z
