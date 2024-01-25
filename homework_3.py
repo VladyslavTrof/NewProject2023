@@ -1,42 +1,27 @@
-# Програма має виконувати прості математичні дії (+, -, *, /)
-# Користувачеві пропонується почерзі ввести числа та дію над цими числами
-# Програма, виходячи з дії, обчислює та друкує результат
-# Зробити перевірку на те, що при діленні дільник не дорівнює 0!
+number1 = float(input("Enter the first digit: "))
 
-# Запитуємо у користувача перше число
-num1 = float(input("Введіть перше число: "))
+number2 = float(input("Eneter the second digit: "))
 
-# Запитуємо у користувача друге число
-num2 = float(input("Введіть друге число: "))
+operation = input("Enter your action (+, -, *, /): ")
 
-# Запитуємо у користувача дію
-operation = input("Введіть дію (+, -, *, /): ")
-
-# Виконуємо дію в залежності від вибору користувача
 if operation == "+":
-    # Додавання
-    result = num1 + num2
-elif operation == "-":
-    # Віднімання
-    result = num1 - num2
-elif operation == "*":
-    # Множення
-    result = num1 * num2
-elif operation == "/":
-    # Ділення
-    # Перевіряємо, чи дільник не дорівнює 0
-    if num2 != 0:
-        result = num1 / num2
+    result = number1 + number2
+if operation == "-":
+    result = number1 - number2
+if operation == "*":
+    result = number1 * number2
+if operation == "/":
+    if number2 != 0:
+        result = number1 / number2
     else:
-        # Якщо дільник дорівнює 0, виводимо повідомлення про помилку
-        print("Помилка: ділення на 0!")
-        # Завершуємо програму
+
+        print("Error: division 0!")
+
         exit()
 else:
-    # Якщо користувач ввів невідому дію, виводимо повідомлення про помилку
-    print("Помилка: невірна дія!")
-    # Завершуємо програму
+
+    print("Error: wrong operation!")
+
     exit()
 
-# Друкуємо результат
-print(f"{num1} {operation} {num2} = {result}")
+print(f"{number1} {operation} {number2} = {result}")
