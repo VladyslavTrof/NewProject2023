@@ -6,7 +6,7 @@ def calculate(nums):
 
 
 
-print(calculate([0, 1, 7, 2, 4, 8]))
-print(calculate([1, 3, 5]))
-print(calculate([6]))
-print(calculate([]))
+print(calculate([0, 1, 7, 2, 4, 8])) ## 88
+print(calculate([1, 3, 5]))          ## 30
+print(calculate([6]))                ## 36
+print(calculate([]))                 ## 0
